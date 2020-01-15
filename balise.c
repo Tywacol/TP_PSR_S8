@@ -10,7 +10,6 @@ void envoiMessageUDP(int s, void * handle, unsigned char * message, int taille) 
     }
 
     /* Fermeture de la socket d'envoi */
-    close(s);
 }
 
 int initSocket(char * hote, char * service, void ** handle) {
